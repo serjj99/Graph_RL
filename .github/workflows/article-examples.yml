@@ -1,0 +1,25 @@
+name: Article examples
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m compileall -q article_core.py run_article_examples.py run_seed_check.py tests
+      - run: python -m unittest discover -s tests -v
+      - run: python run_article_examples.py --output results/local/ci
+      - name: Compare numerical reference output
+        run: |
+          diff results/article_run/graph_edges.csv results/local/ci/graph_edges.csv
+          diff results/article_run/reward_progression.csv results/local/ci/reward_progression.csv
+          diff results/article_run/checkpoint_trajectory.csv results/local/ci/checkpoint_trajectory.csv
+          diff results/article_run/set_valued_example.json results/local/ci/set_valued_example.json

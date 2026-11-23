@@ -1,0 +1,148 @@
+{
+  "buffer_records": 66,
+  "empirical_seminorm": {
+    "decimal": 44.15029415029415,
+    "exact": "397750/9009"
+  },
+  "epochs_trained": 50,
+  "exploration_steps": 0,
+  "pair_comparisons": 2145,
+  "rewards": [
+    {
+      "decimal": 1.3333333333333333,
+      "exact": "4/3"
+    },
+    {
+      "decimal": 2.1666666666666665,
+      "exact": "13/6"
+    },
+    {
+      "decimal": 3.3,
+      "exact": "33/10"
+    },
+    {
+      "decimal": 4.533333333333333,
+      "exact": "68/15"
+    },
+    {
+      "decimal": 5.809523809523809,
+      "exact": "122/21"
+    },
+    {
+      "decimal": 7.107142857142857,
+      "exact": "199/28"
+    },
+    {
+      "decimal": 8.416666666666666,
+      "exact": "101/12"
+    },
+    {
+      "decimal": 9.733333333333333,
+      "exact": "146/15"
+    },
+    {
+      "decimal": 11.054545454545455,
+      "exact": "608/55"
+    },
+    {
+      "decimal": 12.378787878787879,
+      "exact": "817/66"
+    },
+    {
+      "decimal": 13.397435897435898,
+      "exact": "1045/78"
+    }
+  ],
+  "steps": 11,
+  "stop": "terminal_repeat",
+  "terminal_reward": {
+    "decimal": 13.397435897435898,
+    "exact": "1045/78"
+  },
+  "vertices": [
+    {
+      "f": 0,
+      "step": 0,
+      "vertex": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "f": 2,
+      "step": 1,
+      "vertex": 10,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "f": 3,
+      "step": 2,
+      "vertex": 11,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "f": 5,
+      "step": 3,
+      "vertex": 21,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "f": 7,
+      "step": 4,
+      "vertex": 31,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "f": 9,
+      "step": 5,
+      "vertex": 41,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "f": 11,
+      "step": 6,
+      "vertex": 51,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "f": 13,
+      "step": 7,
+      "vertex": 61,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "f": 15,
+      "step": 8,
+      "vertex": 71,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "f": 17,
+      "step": 9,
+      "vertex": 81,
+      "x": 8,
+      "y": 1
+    },
+    {
+      "f": 19,
+      "step": 10,
+      "vertex": 91,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "f": 19,
+      "step": 11,
+      "vertex": 91,
+      "x": 9,
+      "y": 1
+    }
+  ]
+}

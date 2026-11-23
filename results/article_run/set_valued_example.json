@@ -1,0 +1,103 @@
+{
+  "R_D_phi": {
+    "decimal": -2.25,
+    "exact": "-9/4"
+  },
+  "R_D_psi": {
+    "decimal": -2.5,
+    "exact": "-5/2"
+  },
+  "absolute_reward_difference": {
+    "decimal": 0.25,
+    "exact": "1/4"
+  },
+  "action": [
+    0,
+    1,
+    10,
+    11
+  ],
+  "action_score": -1,
+  "coordinate_hausdorff_distances": [
+    0,
+    1,
+    1
+  ],
+  "empirical_seminorm": {
+    "decimal": 0.5,
+    "exact": "1/2"
+  },
+  "eta_H": {
+    "decimal": 0.5,
+    "exact": "1/2"
+  },
+  "lipschitz_upper_bound": 1,
+  "nu": {
+    "decimal": 0.5,
+    "exact": "1/2"
+  },
+  "padded_tail_hausdorff_distance": 1,
+  "phi": [
+    [
+      0
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      0,
+      10,
+      11
+    ]
+  ],
+  "phi_scores": [
+    -2,
+    -1,
+    0
+  ],
+  "psi": [
+    [
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      11
+    ]
+  ],
+  "psi_scores": [
+    -2,
+    -1,
+    -1
+  ],
+  "target": [
+    0,
+    10,
+    11
+  ],
+  "verified": true,
+  "vertex_coordinates": {
+    "0": [
+      0,
+      0
+    ],
+    "1": [
+      0,
+      1
+    ],
+    "10": [
+      1,
+      0
+    ],
+    "11": [
+      1,
+      1
+    ]
+  },
+  "weights": "w_i = 2^(-i); the tail after h equals 2^(-h)"
+}

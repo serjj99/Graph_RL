@@ -1,0 +1,9 @@
+{
+  "checkpoint_trajectory_matches_manuscript": false,
+  "graph_matches_manuscript": true,
+  "historical_figure2_terminal_value": 27,
+  "historical_figure2_terminal_vertex": 99,
+  "new_checkpoint_terminal_value": 8,
+  "new_checkpoint_terminal_vertex": 40,
+  "note": "Reference data were transcribed from the manuscript. They do not identify the original training RNG or reproduce the historical reward progression."
+}

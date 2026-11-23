@@ -1,0 +1,48 @@
+{
+  "checkpoint": 15,
+  "dependencies": {
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.68.0",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.10.8",
+    "networkx": "3.4.2",
+    "numpy": "2.3.5",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "4.0.0",
+    "tzdata": "2026.6"
+  },
+  "edges": 144,
+  "epochs": 50,
+  "epsilon": 0.05,
+  "execution_seed": 0,
+  "graph_seed": 0,
+  "historical_match": {
+    "checkpoint_trajectory_matches_manuscript": false,
+    "graph_matches_manuscript": true,
+    "historical_figure2_terminal_value": 27,
+    "historical_figure2_terminal_vertex": 99,
+    "new_checkpoint_terminal_value": 8,
+    "new_checkpoint_terminal_vertex": 40,
+    "note": "Reference data were transcribed from the manuscript. They do not identify the original training RNG or reproduce the historical reward progression."
+  },
+  "implementation_version": "1.0.0",
+  "matplotlib": "3.10.8",
+  "max_steps": 100,
+  "networkx": "3.4.2",
+  "objective": "f(x,y) = 2*x + y",
+  "python": "3.12.14",
+  "reward_statistic": "Exact observed reward of the last executed transition of each epoch.",
+  "set_example_graph_seed": 0,
+  "source_sha256": {
+    "article_core.py": "cb935126376254568c62e6c8a89eda0c618610c61f9386346cfc2bf0c84e545d",
+    "run_article_examples.py": "dd8c9ee1ee1dad53033e5c67443b5c8e4a3a448dac4de382b6a6ea76cba21fe9"
+  },
+  "stop": "Repeat current vertex or reach the step limit.",
+  "ties": "Exact maximizer equality, uniform random tie-breaking; no draw for singleton argmax.",
+  "training_seed": 0,
+  "vertices": 100,
+  "weights": "Uniform, 1/|V| for coordinates 1..|V|; terminal padding."
+}

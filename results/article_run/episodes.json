@@ -1,0 +1,4990 @@
+[
+  {
+    "epoch": 1,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 1.6666666666666667,
+        "exact": "5/3"
+      }
+    ],
+    "steps": 2,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 1.6666666666666667,
+      "exact": "5/3"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 2,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 2,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      }
+    ],
+    "steps": 1,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 0,
+        "step": 1,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 3,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 1.6666666666666667,
+        "exact": "5/3"
+      }
+    ],
+    "steps": 2,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 1.6666666666666667,
+      "exact": "5/3"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 2,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 4,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 3.533333333333333,
+        "exact": "53/15"
+      },
+      {
+        "decimal": 3.6666666666666665,
+        "exact": "11/3"
+      }
+    ],
+    "steps": 5,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 3.6666666666666665,
+      "exact": "11/3"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 4,
+        "step": 4,
+        "vertex": 20,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "f": 4,
+        "step": 5,
+        "vertex": 20,
+        "x": 2,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 5,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 3.533333333333333,
+        "exact": "53/15"
+      },
+      {
+        "decimal": 4.238095238095238,
+        "exact": "89/21"
+      },
+      {
+        "decimal": 4.678571428571429,
+        "exact": "131/28"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 4.678571428571429,
+      "exact": "131/28"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 4,
+        "step": 4,
+        "vertex": 20,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 6,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 7,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 8,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 9,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 10,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 11,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.214285714285714,
+        "exact": "73/14"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.214285714285714,
+      "exact": "73/14"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 6,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 12,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 4.9523809523809526,
+        "exact": "104/21"
+      },
+      {
+        "decimal": 5.714285714285714,
+        "exact": "40/7"
+      },
+      {
+        "decimal": 6.222222222222222,
+        "exact": "56/9"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.222222222222222,
+      "exact": "56/9"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 13,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 14,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 15,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 16,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 17,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 18,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 3.8666666666666667,
+        "exact": "58/15"
+      }
+    ],
+    "steps": 4,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 3.8666666666666667,
+      "exact": "58/15"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 4,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 19,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 21,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 22,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 23,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 24,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 25,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.238095238095238,
+        "exact": "110/21"
+      }
+    ],
+    "steps": 5,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.238095238095238,
+      "exact": "110/21"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 5,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 26,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 27,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 28,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 29,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 30,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.607142857142857,
+        "exact": "185/28"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.607142857142857,
+      "exact": "185/28"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 6,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 31,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.607142857142857,
+        "exact": "185/28"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.607142857142857,
+      "exact": "185/28"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 6,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 32,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.607142857142857,
+        "exact": "185/28"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.607142857142857,
+      "exact": "185/28"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 6,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 33,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 1.6666666666666667,
+        "exact": "5/3"
+      }
+    ],
+    "steps": 2,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 1.6666666666666667,
+      "exact": "5/3"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 2,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 34,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.607142857142857,
+        "exact": "185/28"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.607142857142857,
+      "exact": "185/28"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 6,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 35,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 1.7,
+        "exact": "17/10"
+      },
+      {
+        "decimal": 1.8,
+        "exact": "9/5"
+      },
+      {
+        "decimal": 1.8571428571428572,
+        "exact": "13/7"
+      }
+    ],
+    "steps": 5,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 1.8571428571428572,
+      "exact": "13/7"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 1,
+        "step": 3,
+        "vertex": 1,
+        "x": 0,
+        "y": 1
+      },
+      {
+        "f": 2,
+        "step": 4,
+        "vertex": 2,
+        "x": 0,
+        "y": 2
+      },
+      {
+        "f": 2,
+        "step": 5,
+        "vertex": 2,
+        "x": 0,
+        "y": 2
+      }
+    ]
+  },
+  {
+    "epoch": 36,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.133333333333333,
+        "exact": "137/15"
+      },
+      {
+        "decimal": 9.654545454545454,
+        "exact": "531/55"
+      }
+    ],
+    "steps": 9,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 9.654545454545454,
+      "exact": "531/55"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 12,
+        "step": 8,
+        "vertex": 60,
+        "x": 6,
+        "y": 0
+      },
+      {
+        "f": 12,
+        "step": 9,
+        "vertex": 60,
+        "x": 6,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 37,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.133333333333333,
+        "exact": "137/15"
+      },
+      {
+        "decimal": 10.018181818181818,
+        "exact": "551/55"
+      },
+      {
+        "decimal": 10.681818181818182,
+        "exact": "235/22"
+      }
+    ],
+    "steps": 10,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 10.681818181818182,
+      "exact": "235/22"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 12,
+        "step": 8,
+        "vertex": 60,
+        "x": 6,
+        "y": 0
+      },
+      {
+        "f": 14,
+        "step": 9,
+        "vertex": 70,
+        "x": 7,
+        "y": 0
+      },
+      {
+        "f": 14,
+        "step": 10,
+        "vertex": 70,
+        "x": 7,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 38,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.238095238095238,
+        "exact": "110/21"
+      }
+    ],
+    "steps": 5,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 5.238095238095238,
+      "exact": "110/21"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 5,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 39,
+    "exploration_steps": 2,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.533333333333333,
+        "exact": "143/15"
+      },
+      {
+        "decimal": 10.709090909090909,
+        "exact": "589/55"
+      },
+      {
+        "decimal": 11.424242424242424,
+        "exact": "377/33"
+      },
+      {
+        "decimal": 12.282051282051283,
+        "exact": "479/39"
+      },
+      {
+        "decimal": 13.098901098901099,
+        "exact": "1192/91"
+      },
+      {
+        "decimal": 13.752380952380953,
+        "exact": "1444/105"
+      }
+    ],
+    "steps": 13,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.752380952380953,
+      "exact": "1444/105"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 14,
+        "step": 8,
+        "vertex": 62,
+        "x": 6,
+        "y": 2
+      },
+      {
+        "f": 16,
+        "step": 9,
+        "vertex": 72,
+        "x": 7,
+        "y": 2
+      },
+      {
+        "f": 15,
+        "step": 10,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 11,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 18,
+        "step": 12,
+        "vertex": 82,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "f": 18,
+        "step": 13,
+        "vertex": 82,
+        "x": 8,
+        "y": 2
+      }
+    ]
+  },
+  {
+    "epoch": 40,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 7.75,
+        "exact": "31/4"
+      },
+      {
+        "decimal": 8.2,
+        "exact": "41/5"
+      }
+    ],
+    "steps": 8,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 8.2,
+      "exact": "41/5"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 10,
+        "step": 7,
+        "vertex": 50,
+        "x": 5,
+        "y": 0
+      },
+      {
+        "f": 10,
+        "step": 8,
+        "vertex": 50,
+        "x": 5,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 41,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 11.054545454545455,
+        "exact": "608/55"
+      },
+      {
+        "decimal": 12.212121212121213,
+        "exact": "403/33"
+      },
+      {
+        "decimal": 12.794871794871796,
+        "exact": "499/39"
+      },
+      {
+        "decimal": 13.252747252747254,
+        "exact": "1206/91"
+      }
+    ],
+    "steps": 12,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.252747252747254,
+      "exact": "1206/91"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 9,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 18,
+        "step": 10,
+        "vertex": 82,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "f": 16,
+        "step": 11,
+        "vertex": 72,
+        "x": 7,
+        "y": 2
+      },
+      {
+        "f": 16,
+        "step": 12,
+        "vertex": 72,
+        "x": 7,
+        "y": 2
+      }
+    ]
+  },
+  {
+    "epoch": 42,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 10.872727272727273,
+        "exact": "598/55"
+      },
+      {
+        "decimal": 12.06060606060606,
+        "exact": "398/33"
+      },
+      {
+        "decimal": 12.820512820512821,
+        "exact": "500/39"
+      },
+      {
+        "decimal": 13.703296703296703,
+        "exact": "1247/91"
+      },
+      {
+        "decimal": 14.40952380952381,
+        "exact": "1513/105"
+      }
+    ],
+    "steps": 13,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 14.40952380952381,
+      "exact": "1513/105"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 16,
+        "step": 9,
+        "vertex": 72,
+        "x": 7,
+        "y": 2
+      },
+      {
+        "f": 18,
+        "step": 10,
+        "vertex": 82,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "f": 17,
+        "step": 11,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 12,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 13,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 43,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 11.054545454545455,
+        "exact": "608/55"
+      },
+      {
+        "decimal": 12.378787878787879,
+        "exact": "817/66"
+      },
+      {
+        "decimal": 13.243589743589743,
+        "exact": "1033/78"
+      },
+      {
+        "decimal": 13.637362637362637,
+        "exact": "1241/91"
+      },
+      {
+        "decimal": 13.952380952380953,
+        "exact": "293/21"
+      }
+    ],
+    "steps": 13,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.952380952380953,
+      "exact": "293/21"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 9,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 10,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "f": 18,
+        "step": 11,
+        "vertex": 90,
+        "x": 9,
+        "y": 0
+      },
+      {
+        "f": 16,
+        "step": 12,
+        "vertex": 80,
+        "x": 8,
+        "y": 0
+      },
+      {
+        "f": 16,
+        "step": 13,
+        "vertex": 80,
+        "x": 8,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 44,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 6.357142857142857,
+        "exact": "89/14"
+      },
+      {
+        "decimal": 6.722222222222222,
+        "exact": "121/18"
+      }
+    ],
+    "steps": 7,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.722222222222222,
+      "exact": "121/18"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 7,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "epoch": 45,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 11.054545454545455,
+        "exact": "608/55"
+      },
+      {
+        "decimal": 12.378787878787879,
+        "exact": "817/66"
+      },
+      {
+        "decimal": 13.397435897435898,
+        "exact": "1045/78"
+      }
+    ],
+    "steps": 11,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.397435897435898,
+      "exact": "1045/78"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 9,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 10,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 11,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 46,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 10.690909090909091,
+        "exact": "588/55"
+      }
+    ],
+    "steps": 9,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 10.690909090909091,
+      "exact": "588/55"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 9,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 47,
+    "exploration_steps": 2,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 3.533333333333333,
+        "exact": "53/15"
+      },
+      {
+        "decimal": 4.238095238095238,
+        "exact": "89/21"
+      },
+      {
+        "decimal": 5.178571428571429,
+        "exact": "145/28"
+      },
+      {
+        "decimal": 6.027777777777778,
+        "exact": "217/36"
+      },
+      {
+        "decimal": 7.022222222222222,
+        "exact": "316/45"
+      },
+      {
+        "decimal": 8.10909090909091,
+        "exact": "446/55"
+      },
+      {
+        "decimal": 9.257575757575758,
+        "exact": "611/66"
+      },
+      {
+        "decimal": 10.448717948717949,
+        "exact": "815/78"
+      },
+      {
+        "decimal": 11.527472527472527,
+        "exact": "1049/91"
+      },
+      {
+        "decimal": 12.523809523809524,
+        "exact": "263/21"
+      },
+      {
+        "decimal": 13.583333333333334,
+        "exact": "163/12"
+      },
+      {
+        "decimal": 14.573529411764707,
+        "exact": "991/68"
+      },
+      {
+        "decimal": 15.398692810457517,
+        "exact": "2356/153"
+      }
+    ],
+    "steps": 16,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 15.398692810457517,
+      "exact": "2356/153"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 4,
+        "step": 4,
+        "vertex": 20,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "f": 6,
+        "step": 5,
+        "vertex": 30,
+        "x": 3,
+        "y": 0
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 40,
+        "x": 4,
+        "y": 0
+      },
+      {
+        "f": 9,
+        "step": 7,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 8,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 9,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 10,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 11,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 18,
+        "step": 12,
+        "vertex": 82,
+        "x": 8,
+        "y": 2
+      },
+      {
+        "f": 19,
+        "step": 13,
+        "vertex": 83,
+        "x": 8,
+        "y": 3
+      },
+      {
+        "f": 21,
+        "step": 14,
+        "vertex": 93,
+        "x": 9,
+        "y": 3
+      },
+      {
+        "f": 22,
+        "step": 15,
+        "vertex": 94,
+        "x": 9,
+        "y": 4
+      },
+      {
+        "f": 22,
+        "step": 16,
+        "vertex": 94,
+        "x": 9,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "epoch": 48,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 11.054545454545455,
+        "exact": "608/55"
+      },
+      {
+        "decimal": 12.378787878787879,
+        "exact": "817/66"
+      },
+      {
+        "decimal": 13.397435897435898,
+        "exact": "1045/78"
+      }
+    ],
+    "steps": 11,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.397435897435898,
+      "exact": "1045/78"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 9,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 10,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 11,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 49,
+    "exploration_steps": 0,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.809523809523809,
+        "exact": "122/21"
+      },
+      {
+        "decimal": 7.107142857142857,
+        "exact": "199/28"
+      },
+      {
+        "decimal": 8.416666666666666,
+        "exact": "101/12"
+      },
+      {
+        "decimal": 9.733333333333333,
+        "exact": "146/15"
+      },
+      {
+        "decimal": 11.054545454545455,
+        "exact": "608/55"
+      },
+      {
+        "decimal": 12.378787878787879,
+        "exact": "817/66"
+      },
+      {
+        "decimal": 13.397435897435898,
+        "exact": "1045/78"
+      }
+    ],
+    "steps": 11,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 13.397435897435898,
+      "exact": "1045/78"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 9,
+        "step": 5,
+        "vertex": 41,
+        "x": 4,
+        "y": 1
+      },
+      {
+        "f": 11,
+        "step": 6,
+        "vertex": 51,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "f": 13,
+        "step": 7,
+        "vertex": 61,
+        "x": 6,
+        "y": 1
+      },
+      {
+        "f": 15,
+        "step": 8,
+        "vertex": 71,
+        "x": 7,
+        "y": 1
+      },
+      {
+        "f": 17,
+        "step": 9,
+        "vertex": 81,
+        "x": 8,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 10,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      },
+      {
+        "f": 19,
+        "step": 11,
+        "vertex": 91,
+        "x": 9,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "epoch": 50,
+    "exploration_steps": 1,
+    "rewards": [
+      {
+        "decimal": 1.3333333333333333,
+        "exact": "4/3"
+      },
+      {
+        "decimal": 2.1666666666666665,
+        "exact": "13/6"
+      },
+      {
+        "decimal": 3.3,
+        "exact": "33/10"
+      },
+      {
+        "decimal": 4.533333333333333,
+        "exact": "68/15"
+      },
+      {
+        "decimal": 5.523809523809524,
+        "exact": "116/21"
+      },
+      {
+        "decimal": 6.142857142857143,
+        "exact": "43/7"
+      }
+    ],
+    "steps": 6,
+    "stop": "terminal_repeat",
+    "terminal_reward": {
+      "decimal": 6.142857142857143,
+      "exact": "43/7"
+    },
+    "vertices": [
+      {
+        "f": 0,
+        "step": 0,
+        "vertex": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "f": 2,
+        "step": 1,
+        "vertex": 10,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "f": 3,
+        "step": 2,
+        "vertex": 11,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "f": 5,
+        "step": 3,
+        "vertex": 21,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "f": 7,
+        "step": 4,
+        "vertex": 31,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "f": 8,
+        "step": 5,
+        "vertex": 32,
+        "x": 3,
+        "y": 2
+      },
+      {
+        "f": 8,
+        "step": 6,
+        "vertex": 32,
+        "x": 3,
+        "y": 2
+      }
+    ]
+  }
+]
